@@ -67,16 +67,7 @@ public class TriviaGameLoop : MonoBehaviour {
         questions[19] = new Question("Where the Gods from Greek Mythology lived?", new string[] { "The Heaven", "Valhalla", "Olympus", "Mount Everest", "Sky" }, 2);
         questions[20] = new Question("Who directed the movie \"Jurassic Park\"?", new string[] { "Steven Spielberg", "Christopher Nolan", "Michael Crichton", "Colin Trevorrow", "George Lucas" }, 0);
 
-
-
-
-
-
-
-
-
         chooseQuestions();
-        
         assignQuestion(questionNumbersChoosen[0]);
 
     }
